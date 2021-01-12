@@ -1,0 +1,13 @@
+
+VCC供电5V 如需3.3V供电，请将板子上的J1短路
+LEDU(背光）供电3.3(不能接5V)
+GND接地
+
+TFT cs   接P3^5;
+TFT DC   接P2^3;
+TFT sdI  接P2^2;
+TFT scK  接P2^1;
+RESET    接P3^4;
+
+SDO可以不接
+
